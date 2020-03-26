@@ -1,4 +1,4 @@
-/* удобные красные линии
+/*удобные красные границы
 div, h1, h2, h3, h4, main, section, p, tr, td {
   border: 1px solid red;
 }
@@ -6,7 +6,7 @@ div, h1, h2, h3, h4, main, section, p, tr, td {
 
 /* Обнуление отступов для заголовков */
 
-h1, h2, h3, h4 {
+.zero-margin {
   margin: 0;
 }
 
@@ -101,6 +101,7 @@ background-image: url(../images/logo.svg);
 display: flex;
 justify-content: center;
 padding: 100px 0;
+background-color: white;
 }
 
 .two-columns {
@@ -135,7 +136,7 @@ padding: 100px 0;
 }
 
 
-.span-accent {
+.two-columns__span-accent {
   font-weight: bold;
 }
 
@@ -145,7 +146,8 @@ padding: 100px 0;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 100px;
+padding: 100px 0 100px;
+background-color: white;
 }
 
 .section-title {
@@ -226,13 +228,13 @@ padding: 100px;
 
 .feinman__link {
 position: absolute;
-top: 395px;
+top: 50%;
 right: 48px;
 line-height: 51px;
 font-size: 36px;
 font-weight: normal;
 text-decoration: none;
-color: #2F80ED;
+color: black;
 }
 
 /* Стили блока Кауфман */
@@ -243,7 +245,7 @@ color: #2F80ED;
   flex-direction: column;
   align-items: center;
   padding: 90px 0;
-  background-color: black;
+  background-color: #1F1F1F;
   overflow: hidden;
   padding: 90px 0;
 }
@@ -283,8 +285,9 @@ color: #2F80ED;
 .footer {
   display: flex;
   padding: 60px 0 40px;
-  background-color: black;
+  background-color: #1F1F1F;
   color: white;
+
 }
 
 .footer__columns {
@@ -292,6 +295,7 @@ color: #2F80ED;
   justify-content: space-between;
   margin: auto;
   width: 90%;
+  min-height: 350px;
 }
 
 .footer__column_content_copyright {
