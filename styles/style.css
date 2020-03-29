@@ -1,19 +1,6 @@
-/*удобные красные границы
-div, h1, h2, h3, h4, main, section, p, tr, td {
+
+div, h1, h2, h3, h4, main, section, p, ul, li {
   border: 1px solid red;
-}
-*/
-
-/* Обнуление отступов для заголовков */
-
-.zero-margin {
-  margin: 0;
-}
-
-/* Обнуление отступов для списков */
-
-ul {
-  padding: 0;
 }
 
 .page {
@@ -58,6 +45,7 @@ background-image: url(../images/logo.svg);
 .header__title {
   z-index: 2;
   width: 730px;
+  margin: 0;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -113,6 +101,7 @@ background-color: white;
 
 .two-columns__brief {
   width: 175px;
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -152,6 +141,7 @@ background-color: white;
 
 .section-title {
   width: 60%;
+  margin: 0;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
@@ -160,14 +150,11 @@ background-color: white;
 
 .section-subtitle {
   width: 60%;
+  margin: 20px 0 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-}
-
-.section-subtitle_theme_white {
-  margin: 20px 0 0;
 }
 
 .table {
@@ -212,6 +199,7 @@ background-color: white;
 
 .feinman__title {
   width: 648px;
+  margin: 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -257,7 +245,6 @@ color: black;
 
 .section-subtitle_theme_dark {
   z-index: 1;
-  margin: 20px 0 0;
   color: white;
 }
 
@@ -278,6 +265,8 @@ color: black;
   right: -210px;
   width: 877px;
   height: 877px;
+  background-image: url(../images/triangle.svg);
+  background-size: contain;
 }
 
 /* стили блока footer */
@@ -318,6 +307,7 @@ color: black;
 }
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -325,6 +315,7 @@ color: black;
 
 .footer__column-links {
   margin: 20px 0 16px;
+  padding: 0;
   list-style: none;
   color: white;
 }
