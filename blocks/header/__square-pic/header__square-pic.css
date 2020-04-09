@@ -1,0 +1,9 @@
+.header__square-pic {
+  position: absolute;
+  right: 0;
+  top: 64px;
+  height: 568px;
+  width: 568px;
+  transform: skew(0deg, -15deg);
+  background-color:  #2F80ED;
+}
